@@ -12,6 +12,6 @@ export class Comp1Component implements OnInit {
   ngOnInit(): void {
   }
   generateRandom = () => {
-    this.Rno = Math.random();
+    this.Rno = Math.ceil(Math.random()*69);
   }
 }
